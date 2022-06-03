@@ -9,9 +9,9 @@ public class CashbackHackServiceTest {
     @org.testng.annotations.Test
     public void shouldCalculateRemain() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 2000;
+        int amount = 2750;
         int actual = cashbackHackService.remain(amount);
-        int expected = 0;
+        int expected = 250;
         assertEquals(actual, expected);
     }
 }
